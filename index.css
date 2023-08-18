@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100vh;
+
+  background-color: rgba(68, 68, 148, 0.63);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(66, 58, 58);
+  padding: 30px 25px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+nav h3,
+nav h4 {
+  margin: 0;
+}
+
+nav h3 {
+  margin-right: auto;
+  color: rgb(22, 207, 240);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+nav h4 {
+  color: #deebf8;
+  font-size: 23px;
+}
+
+nav img {
+  width: 90px;
+}
+
+/* main section */
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(../src/component/images/download\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+background-size: 300px;
+}
+
+.main--title {
+  margin: 0;
+  letter-spacing: -0.05em;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.main--facts {
+  margin-top: 46px;
+  margin-left: 30px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.5rem;
+  color: rgb(22, 207, 240);
+}
